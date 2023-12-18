@@ -78,6 +78,7 @@
 { name: "Yogyakarta", coordinates: [-7.7971, 110.3683], description:"Yogyakarta, often referred to as 'Jogja,' is a cultural gem in Indonesia, renowned for its rich heritage, artistic traditions, and historical landmarks. Home to the royal palace of the Sultan, Kraton Yogyakarta, the city reflects Javanese architecture and royal influence. Visitors can explore the intricate Hindu temples of Prambanan, the vibrant Malioboro Street market, and experience the lively arts scene, including traditional puppet shows and batik workshops. Yogyakarta's charm extends to serving as a gateway to the majestic Borobudur Temple, making it a must-visit destination for those seeking a harmonious blend of history, culture, and natural beauty.", website:"yogyakarta.html"},
 { name: "Lombok", coordinates: [-8.6500, 116.3244], description: "Lombok is an Indonesian island located in the West Nusa Tenggara province, situated east of Bali. Known for its stunning landscapes, Lombok features picturesque beaches, lush greenery, and the iconic Mount Rinjani, an active volcano. The island offers a more tranquil and less touristy alternative to Bali, with opportunities for outdoor activities such as hiking, surfing, and exploring traditional Sasak villages. Lombok's vibrant culture is reflected in its handicrafts, unique architecture, and colorful festivals. With diverse natural attractions and a rich cultural heritage, Lombok is a destination that appeals to those seeking both relaxation and adventure." }
 ];
+    
 
 
 var map = L.map('map', {
@@ -93,7 +94,7 @@ var map = L.map('map', {
         }).addTo(map);
 
         var customIcon = L.icon({
-            iconUrl: 'images/marker.png', 
+            iconUrl: "images/marker.png", 
             iconSize: [20 , 40],
             iconAnchor: [12, 41],
             popupAnchor: [1, -34],
